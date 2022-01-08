@@ -1,0 +1,5 @@
+osoba | ¿y³ lat | ur. i zm. w tym samym mieœcie | ur. i zm. w tym samym kraju
+-----------------------------------------------------------------------------
+Jan kowalski    |  100 lat  |    Nie    |    Tak   
+Sauron          |  100 lat  |    Tak    |    Tak   
+Saruman         |  100 lat  |    Nie    |    Tak   
