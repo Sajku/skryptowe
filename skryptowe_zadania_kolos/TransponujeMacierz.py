@@ -3,8 +3,8 @@ def transponowanie(x):
   return wynik
 
 try:
-  plik1 = open("macierzwejsciowa.txt", "r")
-  plik2 = open("macierzwynikowa.txt", "w")
+  plik1 = open("TXT/macierzwejsciowa.txt", "r")
+  plik2 = open("TXT/macierzwynikowa.txt", "w")
 except:
   print("BŁĄD z plikiem!")
   exit()

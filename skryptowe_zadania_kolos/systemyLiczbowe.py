@@ -15,13 +15,13 @@ def sprawdz(x):
   return [str(dec1), str(oct1), str(hex1)]
 
 try:
-  plik1 = open("danezadanie2.txt", "r")
+  plik1 = open("TXT/danezadanie2.txt", "r")
   liczby = plik1.read().splitlines()
 except:
   print("BŁĄD! Nie można odczytać pliku")
   exit()
 
-plik2 = open("wyjsciezad2.txt", "w")
+plik2 = open("TXT/wyjsciezad2.txt", "w")
 plik2.write("L. dziesiętne | L. ósemkowe | L. szesnastkowe\n")
 plik2.write("---------------------------------------------\n")
 

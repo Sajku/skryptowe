@@ -19,8 +19,8 @@ def analizuj(dane):
     plik2.write(f"{kraj.center(9)}\n")
 
 try:
-  plik1 = open("baza.txt", "r", encoding="utf8")
-  plik2 = open("analizadanych.txt", "w")
+  plik1 = open("TXT/baza.txt", "r", encoding="utf8")
+  plik2 = open("TXT/analizadanych.txt", "w")
 except:
   print("BŁĄD! Nie można otworzyć pliku")
   exit()
