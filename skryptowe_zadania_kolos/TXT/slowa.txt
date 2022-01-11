@@ -1,0 +1,7 @@
+s³owo  | liczba wyst¹pieñ w systemie 10 | liczba wyst¹pieñ w systemie 2
+----------------------------------------------------------------------
+Ala    |          8 | 0b1000    
+ma     |          8 | 0b1000    
+kota   |          8 | 0b1000    
+spacje |         16 | 0b10000   
+enter  |          7 | 0b10000   

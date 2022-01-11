@@ -5,26 +5,30 @@ class Szyfrowanie:
       self.plik = open(x, "r")
       self.tresc = self.plik.read().splitlines()
       self.plik.close()
-      self.plik = open(x, "w")
+      self.nazwaPliku = x
     except:
       print("BŁĄD!")
       exit()
 
   def szyfruj(self):
+    plik = open(self.nazwaPliku, "w")
     for linia in self.tresc:
       kod = ""
       for litera in linia:
         if litera in self.a:
           kod += self.a[(self.a.find(litera) + 1) % len(self.a)]
-      self.plik.write(f"{kod}\n")
+      plik.write(f"{kod}\n")
+    plik.close()
 
   def deszyfruj(self):
+    plik = open(self.nazwaPliku, "w")
     for linia in self.tresc:
       tekst = ""
       for litera in linia:
         if litera in self.a:
           tekst += self.a[(self.a.find(litera) - 1) % len(self.a)]
-      self.plik.write(f"{tekst}\n")
+      plik.write(f"{tekst}\n")
+    plik.close()
 
 
 szyfr1 = Szyfrowanie("TXT/szyfr1.txt")

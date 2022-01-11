@@ -1,5 +1,6 @@
 def transponowanie(x):
   wynik = [[x[j][i] for j in range(len(x))] for i in range(len(x[0]))]
+  print(wynik)
   return wynik
 
 try:
